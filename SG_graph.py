@@ -17,6 +17,8 @@ plt.plot(snap_2[:,0],snap_2[:,1], label = 't_1')
 plt.plot(snap_3[:,0],snap_3[:,1], label = 't_2')
 plt.plot(snap_4[:,0],snap_4[:,1], label = 't_3')
 plt.plot(snap_5[:,0],snap_5[:,1], label = 't_4')
+plt.xlabel('x')
+plt.ylabel('y(x,t)')
 plt.legend()
 plt.savefig('PDE.pdf')
         
